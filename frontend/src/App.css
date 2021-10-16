@@ -1,0 +1,188 @@
+.login {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 50%;
+}
+
+.navbar {
+  height: 7.5vh;
+  background-color: #464b5e;
+}
+
+.nav-link, .navbar-brand {
+  color: #fff;
+}
+
+.elinizdeki-kitaplar-card-container {
+  width: 100%;
+  padding: 1rem;
+}
+
+.elinizdeki-kitaplar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.last-date {
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.btn-group {
+  height: 5rem;
+}
+
+.footer {
+  background-color: #ddd;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1rem;
+  border: none;
+}
+
+.login-form h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+
+/*-------------------------------------RESPONSIVE------------------------------------------*/
+@media (min-width: 576px) {
+  .elinizdeki-kitaplar-card-container {
+    width: 50%;
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .elinizdeki-kitaplar-card-container {
+    width: 33%;
+  }
+}
+
+/*--------------------------------------------------------*/
+
+.lib-detail {
+  display: flex;
+}
+
+.badge {
+  color: white;
+}
+
+.lib-detail .col-md-6 p {
+  font-weight: bold;
+  color: #333;
+}
+
+.lib-card {
+  cursor: pointer;
+}
+
+.detail .card-header {
+  text-align: center;
+  background-color: #fff!important;
+  border: none;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.form-group p{
+  font-size: 0.7rem;
+  color: crimson;
+}
+
+
+.main-content {
+  display: flex;
+}
+
+.sidebar {
+  order: 0;
+  flex-shrink: 0;
+  background-color: #464b5e;
+  border-radius: 0;
+  width: 250px;
+  min-width: 250px;
+  border: none;
+  border-right: 1px solid #ddd;
+  color: white!important;
+}
+.table-borderless {
+  color:white;
+}
+
+.sidebar .card-body h2 {
+  font-size: 1.3rem;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.menu-button {
+  color: white;
+}
+
+.menu-button:hover {
+  color: #ddd;
+}
+
+.landing {
+  height: 82.5vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-image: url('https://cdnuploads.aa.com.tr/uploads/Contents/2020/02/19/thumbs_b_c_990cd1a7f7e6f84ab88e7e7fe5f68a32.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-box {
+  background-color: rgba(255,255,255,.8);
+  padding: 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  
+}
+
+.landing-box h1 {
+  font-size: 1.8rem;
+}
+
+.buttons .btn-secondary {
+  margin: .5rem;
+}
+
+.alinan-kitaplar h1, .en-yakin-kutuphane h1 {
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+
+.en-yakin-kutuphane .card-header {
+  background-color: white;
+}
+
+
+.sidebar-menu li {
+  color: white!important;
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+  margin-right: 1.5rem;
+  padding: 0.5rem;
+  border-left: .4rem solid #686de0;
+  background-color: rgba(255,255,255,.15);
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #c1c1c1!important;
+  transition: color 0.5s;
+}
